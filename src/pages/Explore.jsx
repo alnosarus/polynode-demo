@@ -1,7 +1,12 @@
+import { useEffect } from 'react'
 import DemoMap from '../components/DemoMap'
 import AlertsShowcase from '../components/AlertsShowcase'
 
 function Explore() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <div className="explore-page">
       {/* Interactive 3D map */}

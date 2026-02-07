@@ -3,8 +3,8 @@ function Footer() {
     <footer className="footer">
       <p className="footer-text">
         &copy; 2025 Polynode
-        <a href="mailto:hello@polynode.com" className="footer-email">
-          hello@polynode.com
+        <a href="seth:hello@polynode.com" className="footer-email">
+          seth@polynode.com
         </a>
       </p>
     </footer>
