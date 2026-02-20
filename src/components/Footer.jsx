@@ -1,9 +1,9 @@
 function Footer() {
   return (
-    <footer className="footer">
+    <footer id="footer" className="footer">
       <p className="footer-text">
-        &copy; 2025 Polynode
-        <a href="seth:hello@polynode.com" className="footer-email">
+        &copy; 2026 Polynode
+        <a href="mailto:seth@polynode.com" className="footer-email">
           seth@polynode.com
         </a>
       </p>

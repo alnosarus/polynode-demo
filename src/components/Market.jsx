@@ -1,6 +1,6 @@
 function Market() {
   return (
-    <section className="market">
+    <section id="pricing" className="market">
       <div className="market-content">
         <h2 className="section-title">Who we serve</h2>
         <p className="section-text">
