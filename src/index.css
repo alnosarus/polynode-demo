@@ -1300,7 +1300,14 @@ a {
 .footer {
   padding: 40px 60px;
   border-top: 1px solid var(--border-subtle);
-  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: var(--max-content-width);
+  margin: 0 auto;
 }
 
 .footer-text {
@@ -1315,6 +1322,32 @@ a {
 
 .footer-email:hover {
   color: var(--accent-primary);
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-linkedin {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: border-color 0.2s, color 0.2s, background 0.2s;
+}
+
+.footer-linkedin:hover {
+  border-color: #0A66C2;
+  color: #0A66C2;
+  background: rgba(10, 102, 194, 0.08);
 }
 
 /* ========================================
